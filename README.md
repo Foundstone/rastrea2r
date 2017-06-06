@@ -64,9 +64,9 @@ memdump: Acquires a memory dump from the endpoint ** Windows only
 
 triage: Collects triage information from the endpoint ** Windows only
 
-web-hist: Collects and parses browsing history for all users in the system (ie, firefox, chrome and opera). ** Windows only __NEW
+web-hist: Collects and parses browsing history for all users in the system (ie, firefox, chrome and opera). ** Windows only NEW!
 
-prefetch: Collects and parses prefetch folder from the endpoint ** Windows only __NEW 
+prefetch: Collects and parses prefetch folder from the endpoint ** Windows only NEW! 
 
 
 ** Notes
