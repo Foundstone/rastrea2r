@@ -54,7 +54,7 @@ Pywin32: http://sourceforge.net/projects/pywin32/files/ ** Windows only
 
 Pyinstaller: https://github.com/pyinstaller/pyinstaller/wiki
 
-# Current functionality in v0.7
+# Current functionality in v0.7.1
 
 yara-disk: Yara scan for file/directory objects on disk
 
@@ -63,6 +63,11 @@ yara-mem: Yara scan for running processes in memory
 memdump: Acquires a memory dump from the endpoint ** Windows only
 
 triage: Collects triage information from the endpoint ** Windows only
+
+web-hist: Collects and parses browsing history for all users in the system (ie, firefox, chrome and opera). ** Windows only NEW
+
+prefetch: Collects and parses prefetch folder from the endpoint ** Windows only NEW 
+
 
 ** Notes
 
@@ -89,7 +94,7 @@ is licensed under the [MIT license](http://opensource.org/licenses/mit-license.p
 
 # Credits & References
 
-To my colleagues and friends Robert Gresham Jr. (@rwgresham) and Ryan O'Connor (@_remixed) for their contributions to the Triage module. Thanks folks!
+To my colleagues and friends Robert Gresham Jr., Ryan O'Connor and Nicolas Rivero for their contributions to the project. 
 
 To Ricardo Dias for the idea of using a REST server and his great paper on how to use Python and Yara with McAfee ePO: http://www.sans.org/reading-room/whitepapers/forensics/intelligence-driven-incident-response-yara-35542
 
